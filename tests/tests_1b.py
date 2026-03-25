@@ -39,3 +39,5 @@ def test_invalid_operation():
 
 if __name__ == "__main__":
     pytest.main()
+
+assert simple_calculator("divide",8,4) == 2
